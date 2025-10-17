@@ -34,7 +34,10 @@ useEffect(() => {
       <Tasklist tasks = {tasks}
       updateTask = {updateTask} deleteTask = {deleteTask}/>
       <Progresstracker tasks={tasks}/>
-      <button>Clear</button>
+      <button>
+       Clear All Tasks
+      </button>
+
     </div>
   )
 }
